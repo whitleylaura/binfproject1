@@ -1,17 +1,18 @@
+"""dynamic_protocol"""
 # generating inputs
-final_vol = float(input('Please enter the final volume of the solution (ml): '))
-nacl_stock = float(input('Please enter the NaCl stock (mM): '))
-nacl_final = float(input('Please enter the NaCl final (mM): '))
-mg_stock = float(input('Please enter the MgCl2 stock (mM): '))
-mg_final = float(input('Please enter the MgCl2 stock (mM): '))
+FINAL_VOL = float(input('Please enter the final volume of the solution (ml): '))
+NACL_STOCK = float(input('Please enter the NaCl stock (mM): '))
+NACL_FINAL = float(input('Please enter the NaCl final (mM): '))
+MG_STOCK = float(input('Please enter the MgCl2 stock (mM): '))
+MG_FINAL = float(input('Please enter the MgCl2 stock (mM): '))
 
 # calculating amount of NaCl needed
-step1 = f"Add {str(final_vol * (nacl_final / nacl_stock))} ml NaCl\n"
+STEP1 = f"Add {str(FINAL_VOL * (NACL_FINAL / NACL_STOCK))} ml NaCl\n"
 
 # calculating amount of MgCl2 needed
-step2 = f"Add {str(final_vol * (mg_final / mg_stock))} ml MgCl2\n"
+STEP2 = f"Add {str(FINAL_VOL * (MG_FINAL / MG_STOCK))} ml MgCl2\n"
 
 # adding water to final volume
-step3 = f"Add water to a final volume of {str(final_vol)} ml and mix"
+STEP3 = f"Add water to a final volume of {str(FINAL_VOL)} ml and mix"
 
-print(step1 + step2 + step3)
+print(STEP1 + STEP2 + STEP3)

@@ -1,17 +1,18 @@
+"""calc_number_amino_acids"""
 # generating input prompts
-name = input('Please enter a name for the DNA sequence: ')
-print('Your sequence name is:', name)
+NAME = input('Please enter a name for the DNA sequence: ')
+print('Your sequence name is:', NAME)
 
-length = input('Please enter the length of the sequence: ')
-print('The length of the sequence is:', length)
+LENGTH = input('Please enter the length of the sequence: ')
+print('The length of the sequence is:', LENGTH)
 
 # calculations from input
-protein_length = eval(length)/3
-weight = protein_length * 0.11
+PROTEIN_LENGTH = eval(LENGTH)/3
+WEIGHT = PROTEIN_LENGTH * 0.11
 
-if 3 == 0:
-    print('The length of the decoded protein is: ' + str(protein_length))
-    print('The average weight of the protein sequence is: ' + str(weight))
 # program output
+if LENGTH % 3 == 0:
+    print('The length of the decoded protein is: {0}'.format(str(PROTEIN_LENGTH)))
+    print('The average weight of the protein sequence is: {0}'.format(str(WEIGHT)))
 else:
     print('Error: the DNA sequence is not a multiple of 3')
