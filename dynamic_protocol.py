@@ -4,7 +4,7 @@ FINAL_VOL = float(input('Please enter the final volume of the solution (ml): '))
 NACL_STOCK = float(input('Please enter the NaCl stock (mM): '))
 NACL_FINAL = float(input('Please enter the NaCl final (mM): '))
 MG_STOCK = float(input('Please enter the MgCl2 stock (mM): '))
-MG_FINAL = float(input('Please enter the MgCl2 stock (mM): '))
+MG_FINAL = float(input('Please enter the MgCl2 final (mM): '))
 
 # calculating amount of NaCl needed
 STEP1 = f"Add {str(FINAL_VOL * (NACL_FINAL / NACL_STOCK))} ml NaCl\n"

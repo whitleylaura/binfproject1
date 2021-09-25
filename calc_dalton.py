@@ -17,5 +17,5 @@ PROTEIN_SEQUENCE = "MADPAAGPPPSEGEESTVRFARKGALRQKNVHEVKNHKFTARFFKQPTFCSHCT" \
 NAME_SEQUENCE = "Protein kinase c beta type"
 
 # creating program output
-print("The length of" + NAME_SEQUENCE + " is: " + str(len(PROTEIN_SEQUENCE)))
+print("The length of " + NAME_SEQUENCE + " is: " + str(len(PROTEIN_SEQUENCE)))
 print("The average weight of this protein sequence is: " + str(len(PROTEIN_SEQUENCE)*0.11))
