@@ -12,11 +12,11 @@ This project consists of three programs. The first program has the protein seque
 
 ### Executing program
 
-Program 1: Call the program by entering calc_daltons.py. System will print number of amino acids and estimated peptide chain weight in kilodaltons. 
+Program 1: Call the program by entering python3 calc_daltons.py. System will print number of amino acids and estimated peptide chain weight in kilodaltons. 
 
-Program 2: Call program by entering calc_number_amino_acids.py. System will prompt user to enter a name for the DNA sequence, user should type name and press enter. System will prompt user to enter a number of nucleotides for the DNA sequence, user should again type the number and press enter. If nucleotide number is a multiple of three system will print the number of corresponding amino acids and approximate weight of peptide chain in kilodaltons. 
+Program 2: Call program by entering python3 calc_number_amino_acids.py. System will prompt user to enter a name for the DNA sequence, user should type name and press enter. System will prompt user to enter a number of nucleotides for the DNA sequence, user should again type the number and press enter. If nucleotide number is a multiple of three system will print the number of corresponding amino acids and approximate weight of peptide chain in kilodaltons. 
 
-Program 3: Call program by dynamic_protocol.py. System will prompt user to enter final volume of solution, user should input this number in ml and press enter. System will then prompt user to enter the concentration of the NaCl stock solution, user should input this number in mM and press enter. System will prompt user to enter the final desired concentration of NaCl in solution, user should input this number in mM and press enter. System will prompt user to enter the concentration of the MgCl2 stock solution, user should input this number in mM and press enter. System will then prompt user to enter the final desired concentration of MgCl2 in solution, user should input this number in mM and press enter. System will print instructions to create solution.
+Program 3: Call program by entering python3 dynamic_protocol.py. System will prompt user to enter final volume of solution, user should input this number in ml and press enter. System will then prompt user to enter the concentration of the NaCl stock solution, user should input this number in mM and press enter. System will prompt user to enter the final desired concentration of NaCl in solution, user should input this number in mM and press enter. System will prompt user to enter the concentration of the MgCl2 stock solution, user should input this number in mM and press enter. System will then prompt user to enter the final desired concentration of MgCl2 in solution, user should input this number in mM and press enter. System will print instructions to create solution.
 
 ## Help
 
